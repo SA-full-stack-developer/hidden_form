@@ -1,0 +1,280 @@
+html, body, .aves {
+  margin: 0;
+  padding: 0; }
+
+section {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: -moz-flex;
+  display: -o-flex;
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+  -ms-justify-content: space-around;
+  -moz-justify-content: space-around;
+  -o-justify-content: space-around;
+  align-items: flex-end;
+  -webkit-align-items: flex-end;
+  -ms-align-items: flex-end;
+  -moz-align-items: flex-end;
+  -o-align-items: flex-end;
+  margin-top: 2em; }
+  @media (max-width: 767px) {
+    section {
+      margin-top: 0em; }
+      section h2 {
+        font-size: 0.7em !important; } }
+  section > div {
+    width: 25%; }
+    section > div:hover {
+      transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      /* IE 9 */
+      -moz-transform: scale(1.1);
+      /* Firefox */
+      -webkit-transform: scale(1.1);
+      /* Safari and Chrome */
+      -o-transform: scale(1.1);
+      /* Opera */
+      overflow: hidden; }
+    section > div > div {
+      display: flex;
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: -moz-flex;
+      display: -o-flex;
+      justify-content: center;
+      -webkit-justify-content: center;
+      -ms-justify-content: center;
+      -moz-justify-content: center;
+      -o-justify-content: center;
+      cursor: pointer; }
+      section > div > div img {
+        width: 50%;
+        height: 50%; }
+
+.color1 {
+  color: #a5140c;
+  font-size: 1.2em; }
+
+.color2 {
+  color: #324cc5;
+  font-size: 1.2em; }
+
+.color3 {
+  color: #eee10b;
+  font-size: 1.2em; }
+
+.color4 {
+  color: #9433f3;
+  font-size: 1.2em; }
+
+.entrenador {
+  max-height: 220px !important;
+  width: auto !important;
+}
+
+li {
+  list-style: none; }
+
+.button a {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+.button img {
+  width: 50px; }
+
+.arrow {
+  background: white;
+  height: 2em;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: -moz-flex;
+  display: -o-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  -moz-justify-content: center;
+  -o-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  -moz-align-items: center;
+  -o-align-items: center; }
+
+#contenedorBoton {
+  width: 100%; }
+  #contenedorBoton .buttonContainer {
+    padding: 0; }
+    #contenedorBoton .buttonContainer a {
+      width: 100%;
+      margin: 0; }
+  #contenedorBoton > div {
+    margin-top: 2em; }
+
+iframe {
+  margin: 1em 0 2em; }
+
+form {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: -moz-flex;
+  display: -o-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -o-justify-content: space-between;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  -moz-flex-flow: row wrap;
+  -o-flex-flow: row wrap; }
+  form > div {
+    width: 49%;
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -moz-flex;
+    display: -o-flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -o-justify-content: space-between;
+    flex-flow: column;
+    -webkit-flex-flow: column;
+    -ms-flex-flow: column;
+    -moz-flex-flow: column;
+    -o-flex-flow: column; }
+    @media (max-width: 767px) {
+      form > div {
+        width: 100%; } }
+    form > div > input, form > div select {
+      width: 100%;
+      height: 3em;
+      border: none;
+      -webkit-transition: all .1s;
+      -moz-transition: all .1s;
+      -ms-transition: all .1s;
+      -o-transition: all .1s;
+      transition: all .1s; }
+      @media (max-width: 767px) {
+        form > div > input, form > div select {
+          margin-top: 1em; } }
+      form > div > input:focus, form > div select:focus {
+        border: solid 3px #3e4f6a; }
+    form > div > textarea {
+      border: none;
+      -webkit-transition: all .1s;
+      -moz-transition: all .1s;
+      -ms-transition: all .1s;
+      -o-transition: all .1s;
+      transition: all .1s; }
+      @media (max-width: 767px) {
+        form > div > textarea {
+          margin-top: 1em; } }
+      form > div > textarea:focus {
+        border: solid 3px #3e4f6a; }
+
+html, html a {
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #e2e2e2;
+  overflow-x: hidden; }
+
+.formulario p {
+  text-align: justify; }
+
+.formulario {
+  max-width: 69em;
+  margin: 0 auto; }
+
+.arrow {
+  background: #fff;
+  float: left;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 0 20px 0;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); }
+
+h2 {
+  font-size: 2.125em;
+  font-weight: 300;
+  color: #3e4f6a;
+  margin: 0;
+  padding: .6em 0; 
+  text-align: center;
+}
+
+.buttonContainer .button a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #3e4f6a;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 2.8em;
+  border: 2px solid #3e4f6a;
+  display: inline-block;
+  width: 80%;
+  height: 4em;
+  border-radius: 4px;
+  margin: 1.5em 1.5em 1.8em;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: -moz-flex;
+  display: -o-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  -moz-justify-content: center;
+  -o-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  -moz-align-items: center;
+  -o-align-items: center; }
+
+#contenedor {
+  width: 80%;
+  margin: auto; }
+
+
+@media screen and (min-width: 1025px) {
+   .buttonContainer .button a {
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s; }
+
+  .buttonContainer .button a:hover {
+    background: #3e4f6a;
+    color: #fff; }}
+    
+.formulario {
+  display: none; }
+
+.formulario h2 {
+  padding: 0; }
+
+.arrow {
+  margin: 0; }
+
+h1 {
+  text-align: center;
+  color: #3e4f6a; }
+
+/*# sourceMappingURL=style.css.map */
